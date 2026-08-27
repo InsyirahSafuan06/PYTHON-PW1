@@ -9,6 +9,7 @@ quantities = []
 # item_num baca berapa panjang list item_names
 for item_num in range(len(item_names)):
     # Tunjuk nama serta harga item, minta kuantiti daripada pengguna dan tukar kepada nombor bulat
+    # 2f untuk display number dua tempat perpuluhan
     qty = int(input(f"Enter the quantity for {item_names[item_num]} (RM{item_prices[item_num]:.2f}): "))
     # Simpan kuantiti dalam list
     quantities = quantities + [qty]
